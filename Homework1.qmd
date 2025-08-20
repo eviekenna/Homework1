@@ -1,0 +1,37 @@
+---
+title: "Data Science"
+format: html
+editor: visual
+---
+
+# Homework 1 - Evie Kenna - ST558
+
+## Question 1
+
+-   Being a data scientist is about being able to transform data so that you can gain insight or knowledge from that data. It is about tidying, transforming, visualizing, modeling and communicating the data in a way that is valuable to a problem that needs solving.
+
+-   There are many similarities between statisticians and data scientist the main being that they both work heavily with data. There are also a lot of differences which include:
+
+    -   statisticians mainly focus on science while data scientists mainly focus on the problem and results.
+
+    -   statisticians use mostly clean, small and organized data while data science often uses the opposite.
+
+    -   statisticians bring the data to the model while data scientists bring the model to the data.
+
+-   In relation to these two areas I view myself as more of a data scientist. I think I like the problems where you let the data lead and then investigate the avenues in which the data is leading, rather than having a set target question of interest.
+## Question 2
+```{r}
+y <- density(iris$Petal.Width)
+```
+Determine class, type and structure of y.
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+Plotting y but not showing code in final output. 
+```{r, echo=FALSE}
+plot(y)
+
+```
+
